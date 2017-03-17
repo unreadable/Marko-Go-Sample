@@ -1,8 +1,6 @@
 package main
 
-import (
-	"net/http"
-)
+import "net/http"
 
 func main() {
 	fs := http.FileServer(http.Dir("public"))
